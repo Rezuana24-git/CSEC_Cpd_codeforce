@@ -1,8 +1,9 @@
 n=int(input())
-result=0
-for i in range (n):
-  arr=list(map(int,input().split()))
-  c=arr.count(1)
-  if c>= 2:
-      result+=1
-print(result)
+final=0
+for i in range(n):
+    m= list(map(int,input().split()))
+    result= m.count(1)
+    if result >= 2:
+        final+=1
+print(final)
+
